@@ -4,7 +4,7 @@
       "J. Shirley <j@shirley.im>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.110440",
+   "generated_by" : "Dist::Zilla version 4.300005, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -50,10 +50,10 @@
       "homepage" : "https://github.com/jshirley/Plack-Middleware-ComboLoader",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/jshirley/Plack-Middleware-ComboLoader",
+         "url" : "https://github.com/jshirley/Plack-Middleware-ComboLoader.git",
          "web" : "https://github.com/jshirley/Plack-Middleware-ComboLoader"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

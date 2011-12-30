@@ -1,6 +1,6 @@
 package Plack::Middleware::ComboLoader;
 {
-  $Plack::Middleware::ComboLoader::VERSION = '0.01';
+  $Plack::Middleware::ComboLoader::VERSION = '0.02';
 }
 use strict;
 use warnings;
@@ -56,7 +56,7 @@ sub call {
         $res->status(200);
 
         my $content_type = 'plain/text';
-        my $max_age      = $self->max_age || 315360000;
+        my $max_age      = defined $self->max_age ? $self->max_age : 315360000;
 
         if ( $self->save ) {
             my $save_dir = Path::Class::Dir->new($self->save)->subdir($path_info);
@@ -150,7 +150,7 @@ Plack::Middleware::ComboLoader - Handle combination loading and processing of on
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

@@ -7,6 +7,7 @@ Makefile.PL
 README
 README.mkdn
 comboloader.psgi
+config-
 lib/Plack/Middleware/ComboLoader.pm
 t/process.t
 t/release-pod-syntax.t
