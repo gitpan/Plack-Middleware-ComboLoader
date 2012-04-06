@@ -27,7 +27,6 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "HTTP::Date" => 0,
     "HTTP::Throwable" => 0,
-    "HTTP::Throwable::Factory" => 0,
     "Path::Class" => 0,
     "Plack" => 0,
     "Plack::MIME" => 0,
@@ -39,7 +38,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -4,7 +4,7 @@
       "J. Shirley <j@shirley.im>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300005, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Dist::Zilla version 4.300013, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -21,27 +21,26 @@
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
-            "HTTP::Date" : 0,
-            "HTTP::Throwable" : 0,
-            "HTTP::Throwable::Factory" : 0,
-            "Path::Class" : 0,
-            "Plack" : 0,
-            "Plack::MIME" : 0,
-            "Plack::Middleware" : 0,
-            "Plack::Request" : 0,
-            "Try::Tiny" : 0,
-            "URI::Escape" : 0,
-            "parent" : 0,
-            "strict" : 0,
-            "warnings" : 0
+            "Carp" : "0",
+            "HTTP::Date" : "0",
+            "HTTP::Throwable" : "0",
+            "Path::Class" : "0",
+            "Plack" : "0",
+            "Plack::MIME" : "0",
+            "Plack::Middleware" : "0",
+            "Plack::Request" : "0",
+            "Try::Tiny" : "0",
+            "URI::Escape" : "0",
+            "parent" : "0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "HTTP::Request::Common" : 0,
-            "Plack::Test" : 0,
-            "Test::More" : 0
+            "HTTP::Request::Common" : "0",
+            "Plack::Test" : "0",
+            "Test::More" : "0"
          }
       }
    },
@@ -54,6 +53,6 @@
          "web" : "https://github.com/jshirley/Plack-Middleware-ComboLoader"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 
