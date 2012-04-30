@@ -1,6 +1,6 @@
 package Plack::Middleware::ComboLoader;
 {
-  $Plack::Middleware::ComboLoader::VERSION = '0.03';
+  $Plack::Middleware::ComboLoader::VERSION = '0.04';
 }
 use strict;
 use warnings;
@@ -137,7 +137,7 @@ sub call {
         return $res->finalize;
     }
 
-    return $res->finalize;
+    $self->app->($env);
 }
 
 1;
@@ -151,7 +151,7 @@ Plack::Middleware::ComboLoader - Handle combination loading and processing of on
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 

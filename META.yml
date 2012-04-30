@@ -32,4 +32,4 @@ requires:
 resources:
   homepage: https://github.com/jshirley/Plack-Middleware-ComboLoader
   repository: https://github.com/jshirley/Plack-Middleware-ComboLoader.git
-version: 0.03
+version: 0.04
